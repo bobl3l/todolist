@@ -1,0 +1,68 @@
+.todo-list {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.todo-list h2 {
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5em;
+  margin: 1px;
+}
+
+.add-todo {
+  display: flex;
+  margin-bottom: 20px;
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: #c7a685;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.list {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 1.5em;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #faf9f6;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+li button {
+  background-color: grey;
+  border-radius: 8px;
+}

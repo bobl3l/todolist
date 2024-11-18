@@ -1,0 +1,21 @@
+<div class="todo-list">
+  <h2>Todo List</h2>
+  <div class="add-todo">
+    <input
+      [(ngModel)]="newTodo"
+      (keyup.enter)="addTodo()"
+      placeholder="Add a new task"
+    />
+    <button (click)="addTodo()">Add</button>
+  </div>
+  <div class="list">
+    <ul>
+      @for (todo of todos; track todo; let i = $index) {
+      <li>
+        {{ todo }}
+        <button (click)="removeTodo(i)">Remove</button>
+      </li>
+      }
+    </ul>
+  </div>
+</div>
